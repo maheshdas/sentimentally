@@ -1,0 +1,9 @@
+application: sentimentally
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /.*
+  script: sentimentally/default_handler.py
+  login: required
