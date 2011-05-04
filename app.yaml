@@ -4,6 +4,17 @@ runtime: python
 api_version: 1
 
 handlers:
+- url: /train
+  script: sentimentally/train_handler.py
+  login: required
+
+- url: /predict
+  script: sentimentally/predict_handler.py
+  login: required
+
+- url: /oauth2callback
+  script: sentimentally/oauth_handler.py
+
 - url: /.*
   script: sentimentally/default_handler.py
   login: required
