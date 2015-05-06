@@ -1,0 +1,1 @@
+sentimentally is a tool that determines sentiment of your emails.  Once determined, it helps you gauge your relationships with co-workers, customers, friends, or other individuals based on the tone of your conversations with these people.
